@@ -1,46 +1,42 @@
 # Moov
 
-> Stream Movies and tv shows
+> CLI
 
 ![Using](use.gif "Using")
 
-## Requirements
+O player padrão definido é o [VLC Player][2], então você vai precisar dele pra assistir os vídeos.
 
-- [VLC Player][2]
+## Instalação
 
-## Install
-
-You can install this:
-
+Você pode instalar globalmente usando o npm:
 
 ```
 $ npm i -g moov
 ```
 
-or just:
+Ou clonar esse repositório:
 
 ```
-$ git clone git@github.com:uselessdev/moov.git movies
-$ cd movies
+$ git clone -b cli git@github.com:Webschool-io/Project-Moov.git stream
+$ cd stream
 $ npm install
 $ npm link
 $ moov
 ```
 
-## Usage:
+## Como usar:
 
-It's simple
+No seu terminal digite:
 
 ```
-$ moov search <movie-name> [options]
+$ moov search <nome-do-filme> [opções]
 ```
 
-to see options available type: `moov --help`
+Para ver as opções disponíveis: `moov --help`
 
-## License:
+## Licença:
 
 [MIT][3]
 
-[1]: https://github.com/mafintosh/peerflix "Peerflix: The Salvation of the world"
 [2]: http://www.videolan.org/vlc/ "VLC Player :3"
-[3]: https://github.com/uselessdev/moov/blob/master/LICENSE "License"
+[3]: https://github.com/Webschool-io/Project-Moov/blob/cli/LICENSE "Licença"
