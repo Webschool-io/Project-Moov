@@ -9,6 +9,10 @@
 - Clean cache
 - Save settings
 
+## [2.3.6] - 2016-MM-DD
+
+---
+
 ## [2.2.6] - 2016-06-28
 
 ### Added
@@ -21,6 +25,8 @@
 - If only one show is found download with ask
 - If only one subtitles is found download with ask
 
+---
+
 ## [2.2.5] - 2016-06-20
 
 ### Added
@@ -29,6 +35,8 @@
 
 ### Removed
 - --category argument
+
+---
 
 ## [1.1.4] - 2015-05-28
 
